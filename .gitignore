@@ -1,0 +1,9 @@
+# node
+node_modules
+
+# build
+# dist
+
+# reports
+coverage/
+[p]npm-debug.log
