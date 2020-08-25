@@ -1,0 +1,19 @@
+{
+  "name": "zendro-dev-docs",
+  "version": "0.0.1",
+  "description": "Zendro development documentation",
+  "main": "index.js",
+  "authors": [
+    { "name": "", "email": "" }
+  ],
+  "repository": "https://github.com/Zendro-dev/Development-Documents",
+  "scripts": {
+    "serve": "vuepress dev src",
+    "build": "rimraf dist && vuepress build src --dest dist"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "vuepress": "^1.5.3"
+  }
+}
